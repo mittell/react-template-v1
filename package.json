@@ -1,0 +1,24 @@
+{
+	"name": "react-template-v1",
+	"version": "1.0.0",
+	"description": "A React App Template from Scratch.",
+	"main": "index.js",
+	"scripts": {
+		"setup": "npm install && npx husky install"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mittell/react-template-v1.git"
+	},
+	"author": "Chris Mittell",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mittell/react-template-v1/issues"
+	},
+	"homepage": "https://github.com/mittell/react-template-v1#readme",
+	"devDependencies": {
+		"@commitlint/cli": "^17.1.2",
+		"@commitlint/config-conventional": "^17.1.0",
+		"husky": "^8.0.1"
+	}
+}
