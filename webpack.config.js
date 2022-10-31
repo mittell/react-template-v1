@@ -9,6 +9,7 @@ module.exports = {
 		path: path.join(__dirname, '/dist'),
 		filename: 'bundle.js',
 		publicPath: '/',
+		assetModuleFilename: 'assets/img/[hash][ext][query]',
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
@@ -50,6 +51,10 @@ module.exports = {
 					'postcss-loader',
 					'sass-loader',
 				],
+			},
+			{
+				test: /\.(png|jpe?g|gif|svg)$/i,
+				type: 'asset',
 			},
 		],
 	},
