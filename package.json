@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"setup": "npm install && npx husky install",
+		"build": "webpack --mode production",
 		"start": "webpack-dev-server --mode development"
 	},
 	"repository": {
