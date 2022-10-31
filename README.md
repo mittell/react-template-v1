@@ -22,10 +22,6 @@ Run the provided setup script:
 
     npm run setup
 
-Run and debug the application with the dev script:
-
-    npm run dev
-
 Build and run the compiled version with the build and start scripts:
 
     npm run build
@@ -41,4 +37,3 @@ Feel free to find and contact me at the following:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chris-mittell/)
 
 </div>
-
